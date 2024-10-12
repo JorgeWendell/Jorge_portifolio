@@ -14,7 +14,7 @@ export async function saveLead({
     message: string
 }) {
     try{
-        await sql`INSERT INTO Leads (name, email, phone, message) VALUES (${name}, ${email}, ${phone}, ${message})`
+        await sql`INSERT INTO PreEnrollment  (name, email, phone, message) VALUES (${name}, ${email}, ${phone}, ${message})`
 
     } catch (error) {
         console.log(error)
