@@ -5,14 +5,13 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 import { ThemeProvider } from "../_components/theme-provider";
 
-
 const fontSans = FontSans({ 
   subsets: ["latin"],
   variable: "--font-sans", 
 });
 
 const fontHeading = localfont({
-  src: "../assets/fonts/CalSans-Semibold.woff2",
+  src: "./fonts/CalSans-SemiBold.ttf",
   variable: "--font-heading",  
 });
 
